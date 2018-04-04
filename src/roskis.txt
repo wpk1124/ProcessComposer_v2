@@ -1,0 +1,238 @@
+ public static ProcessGraph createBPGraph(ProcessGraph mergedGraph) {
+        ProcessGraph BPGraph = new ProcessGraph(mergedGraph);
+        //add split gateways
+        for(FlowObject originalVertex : mergedGraph.getVertices()) {
+            Collection<FlowObject> successors = mergedGraph.getSuccessors(originalVertex);
+            Collection<FlowObject> predecessors = mergedGraph.getPredecessors(originalVertex);
+            int inLevel = 0, outLevel = 0;
+            for(SequenceFlow e : mergedGraph.getInEdges(originalVertex)) {
+                if(e.getBranchingLevel() > inLevel)
+                    inLevel = e.getBranchingLevel();
+            }
+            for(SequenceFlow e : mergedGraph.getOutEdges(originalVertex)) {
+                if(e.getBranchingLevel() > outLevel)
+                    outLevel = e.getBranchingLevel();
+            }
+
+            //add split gateways
+            if(successors.size() > 1) {
+                if(inLevel != outLevel)
+                    BPGraph.insertGateway(originalVertex, successors, FlowObject.FlowObjectType.XORsplit);
+                else
+                    BPGraph.insertGateway(originalVertex, successors, FlowObject.FlowObjectType.ANDsplit);
+            }
+            //add merge gateways
+            if(predecessors.size() > 1) {
+                if(inLevel != outLevel)
+                    BPGraph.insertGateway(predecessors, originalVertex, FlowObject.FlowObjectType.XORjoin);
+                else
+                    BPGraph.insertGateway(predecessors, originalVertex, FlowObject.FlowObjectType.ANDjoin);
+            }
+            //add merge gateways
+
+        }
+        return BPGraph;
+    }
+
+//stare dodawanie struktur bramowych 19.01.2018
+
+    public boolean insertMergeGatewayStructure(GatewayStructure structure, List<SequenceFlow> inEdges, FlowObject destinationObject) {
+        String destObjectName = destinationObject.getObjectName();
+        List<FlowObject> gateways = new ArrayList<>();
+        int numOfGateways = structure.getGatewayTypes().length;
+        if(inEdges.size() > 2) {
+            for(int gatewayType : structure.getGatewayTypes()) {
+                if(gatewayType == -1)
+                    gateways.add(new FlowObject(FlowObject.FlowObjectType.XORsplit));
+                else if(gatewayType == 1)
+                    gateways.add(new FlowObject(FlowObject.FlowObjectType.ANDsplit));
+                else
+                    gateways.add(new FlowObject(FlowObject.FlowObjectType.DummyObject));
+            }
+            for(FlowObject g : gateways)
+                this.addVertex(g);
+            for(int i = 0; i < inEdges.size(); i++) {
+                String startObjectName = this.getSource(inEdges.get(i)).getObjectName();
+                this.addNewSequenceFlow(startObjectName, gateways.get(structure.getEdgeGateways()[i]).getObjectName());
+            }
+            int[][] gatewayConnections = structure.getGatewayConnections();
+            for(int i = 0; i < numOfGateways; i++) {
+                for(int j = 0; j < numOfGateways; j++) {
+                    if(gatewayConnections[i][j] == 1)
+                        this.addNewSequenceFlow(gateways.get(structure.getEdgeGateways()[i]).getObjectName(), gateways.get(structure.getEdgeGateways()[j]).getObjectName());
+                }
+            }
+            this.addNewSequenceFlow(gateways.get(structure.getOutputGateway()).getObjectName(), destObjectName);
+
+            for(SequenceFlow e : inEdges)
+                this.removeEdge(e);
+
+            return true;
+        }
+        else
+            return false;
+    }
+
+//nieudolna proba z 10.01.2018
+ //build process graph
+    public static ProcessGraph buildProcessGraph(Log groupedLog) {
+        ProcessGraph componentProcess = new ProcessGraph(true);
+        for(Trace t : groupedLog.getWorkflowLog()) {
+            List<String> tasks = t.getWorkflowTrace();
+            //add first task
+            String firstTask = tasks.get(0);
+            componentProcess.addNewFlowObject(firstTask, FlowObject.FlowObjectType.Task);
+            componentProcess.addNewSequenceFlow("Start", firstTask);
+            tasks.remove(firstTask);
+            //add the other tasks
+            for (String task : tasks) {
+                componentProcess.addNewFlowObject(task, FlowObject.FlowObjectType.Task);
+                componentProcess.addNewSequenceFlow(firstTask, task);
+                firstTask = task;
+            }
+            //add end event
+            componentProcess.addNewFlowObject("End", FlowObject.FlowObjectType.EndEvent);
+            componentProcess.addNewSequenceFlow(firstTask, "End");
+        }
+            //DEBUG - print intermediate model
+            ProcessGraph toPrint = new ProcessGraph(componentProcess);
+            toPrint.printGraph("intermediate.png");
+        //refine edges
+        Collection<SequenceFlow> edgesToRemove = new ArrayList<>();
+        for(SequenceFlow edge : componentProcess.getEdges()) {
+            Pair<FlowObject> endPoints;
+            boolean doubledEdges = false, executedOnce = false, parallelExecution = false;
+            endPoints = componentProcess.getEndpoints(edge);
+            String startTaskName = endPoints.getFirst().getObjectName();
+            String endTaskName = endPoints.getSecond().getObjectName();
+            SequenceFlow oppositeEdge = componentProcess.findEdge(endPoints.getSecond(), endPoints.getFirst());
+            doubledEdges = (oppositeEdge != null);
+            int oldIndexDiff = 0;
+            for(Trace t1 : groupedLog.getWorkflowLog()) {
+                List<String> logTasks = t1.getWorkflowTrace();
+                int startIndex = logTasks.indexOf(startTaskName);
+                int endIndex = logTasks.indexOf(endTaskName);
+                //if(startIndex == logTasks.lastIndexOf(startTaskName)
+                //    && endIndex == logTasks.lastIndexOf(endTaskName))
+                //    executedOnce = true;
+                //else
+                //    executedOnce = false;
+                //if(executedOnce && (oldIndexDiff*(startIndex-endIndex) < 0))
+                if(oldIndexDiff*(startIndex-endIndex) < 0)
+                    parallelExecution = true;
+                oldIndexDiff = startIndex-endIndex;
+            }
+            if(doubledEdges && parallelExecution) {
+                edgesToRemove.add(edge);
+                edgesToRemove.add(oppositeEdge);
+            }
+        }
+        for(SequenceFlow e : edgesToRemove)
+            componentProcess.removeEdge(e);
+
+        ProcessGraph graphAndGateways = new ProcessGraph(componentProcess);
+
+        for(FlowObject originalVertex : componentProcess.getVertices()) {
+            Collection<FlowObject> successors = componentProcess.getSuccessors(originalVertex);
+            //add split gateways
+            if(successors.size() > 1)
+                graphAndGateways.insertGateway(originalVertex, successors, FlowObject.FlowObjectType.ANDsplit);
+        }
+
+        ProcessGraph intermediateGraph = new ProcessGraph(graphAndGateways);
+
+        //add merge gateways
+        for(FlowObject originalVertex : componentProcess.getVertices()) {
+            //intermediateGraph - merged graph with split AND gateways
+            FlowObject intermediateVertex = intermediateGraph.getFlowObject(originalVertex.getObjectName());
+            Collection<FlowObject> predecessors = intermediateGraph.getPredecessors(intermediateVertex);
+            //add merge gateways
+            if(predecessors.size() > 1)
+                graphAndGateways.insertGateway(predecessors, originalVertex, FlowObject.FlowObjectType.ANDjoin);
+        }
+
+        return graphAndGateways;
+    }
+
+    public static ProcessGraph mergeGraphs(ProcessGraph graphA, ProcessGraph graphB) {
+        if(graphA.getVertexCount() == 0)
+            return graphB;
+        if (graphB.getVertexCount() == 0)
+            return graphA;
+        ProcessGraph mergedGraph = new ProcessGraph(false);
+        for(String s : CollectionUtils.union(graphA.getFlowObjectNames(), graphB.getFlowObjectNames())) {
+            if(graphA.getFlowObject(s) != null)
+                mergedGraph.addVertex(graphA.getFlowObject(s));
+            else
+                mergedGraph.addVertex(graphB.getFlowObject(s));
+        }
+        for(Pair<String> endpoints : CollectionUtils.intersection(graphA.getSequenceFlowEndpointNames(), graphB.getSequenceFlowEndpointNames())) {
+            String currentCondition = graphA.getSequenceFlow(endpoints.getFirst(), endpoints.getSecond()).getCondition();
+            mergedGraph.addEdge(new SequenceFlow(currentCondition), graphA.getFlowObject(endpoints.getFirst()), graphA.getFlowObject(endpoints.getSecond()));
+        }
+
+        //get new branching level
+        StringBuilder edgeCondition = new StringBuilder("A;");
+        if(graphA.getMaxBranchingLevel().length() > graphB.getMaxBranchingLevel().length())
+            edgeCondition.append(graphA.getMaxBranchingLevel());
+        else
+            edgeCondition.append(graphB.getMaxBranchingLevel());
+
+
+        // add first set difference with appropriate information
+        for(Pair<String> endpoints : CollectionUtils.subtract(graphA.getSequenceFlowEndpointNames(), graphB.getSequenceFlowEndpointNames())) {
+            String currentCondition = graphA.getSequenceFlow(endpoints.getFirst(), endpoints.getSecond()).getCondition();
+            mergedGraph.addNewSequenceFlow(endpoints.getFirst(), endpoints.getSecond(), edgeCondition.toString());
+        }
+        for(Pair<String> endpoints : CollectionUtils.subtract(graphB.getSequenceFlowEndpointNames(), graphA.getSequenceFlowEndpointNames())) {
+            String currentCondition = graphB.getSequenceFlow(endpoints.getFirst(), endpoints.getSecond()).getCondition();
+            mergedGraph.addNewSequenceFlow(endpoints.getFirst(), endpoints.getSecond(), edgeCondition.toString());
+        }
+        return mergedGraph;
+    }
+
+    public static ProcessGraph createBPGraph(ProcessGraph mergedGraph) {
+        ProcessGraph BPGraph = new ProcessGraph(mergedGraph);
+        //add split gateways
+        for(FlowObject originalVertex : mergedGraph.getVertices()) {
+            Collection<FlowObject> successors = mergedGraph.getSuccessors(originalVertex);
+            Collection<SequenceFlow> inEdges = mergedGraph.getInEdges(originalVertex);
+            Collection<SequenceFlow> outEdges = mergedGraph.getOutEdges(originalVertex);
+
+            int inLevel = mergedGraph.getMaxBranchingLevel(inEdges);
+            int outLevel = mergedGraph.getMaxBranchingLevel(outEdges);
+            boolean alternativeFlow = (inLevel != outLevel) || !mergedGraph.branchingLevelsConsistent(outEdges);
+            //add split gateways
+            if(successors.size() > 1) {
+                if(alternativeFlow)
+                    BPGraph.insertGateway(originalVertex, successors, FlowObject.FlowObjectType.XORsplit);
+                else
+                    BPGraph.insertGateway(originalVertex, successors, FlowObject.FlowObjectType.ANDsplit);
+            }
+        }
+
+        ProcessGraph intermediateGraph = new ProcessGraph(BPGraph);
+
+        //add merge gateways
+        for(FlowObject originalVertex : mergedGraph.getVertices()) {
+            //intermediateGraph - merged graph with split gateways
+            FlowObject intermediateVertex = intermediateGraph.getFlowObject(originalVertex.getObjectName());
+            Collection<FlowObject> predecessors = intermediateGraph.getPredecessors(intermediateVertex);
+
+            Collection<SequenceFlow> inEdges = mergedGraph.getInEdges(originalVertex);
+            Collection<SequenceFlow> outEdges = mergedGraph.getOutEdges(originalVertex);
+            int inLevel = mergedGraph.getMaxBranchingLevel(inEdges);
+            int outLevel = mergedGraph.getMaxBranchingLevel(outEdges);
+            boolean alternativeFlow = (inLevel != outLevel) || !mergedGraph.branchingLevelsConsistent(inEdges);
+
+            //add merge gateways
+            if(predecessors.size() > 1) {
+                if(alternativeFlow)
+                    BPGraph.insertGateway(predecessors, originalVertex, FlowObject.FlowObjectType.XORjoin);
+                else
+                    BPGraph.insertGateway(predecessors, originalVertex, FlowObject.FlowObjectType.ANDjoin);
+            }
+        }
+
+        return BPGraph;
+    }
