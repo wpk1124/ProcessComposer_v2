@@ -12,6 +12,7 @@ public class SequenceReader {
             BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
             String strLine;
             Log workflowLog = new Log();
+            //throw exception in case when there is an empty log
             while ((strLine = br.readLine()) != null) {
                 Trace trace = new Trace();
                 if(strLine.startsWith("\"")) {

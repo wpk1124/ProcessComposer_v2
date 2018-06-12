@@ -300,7 +300,7 @@ public class ProcessGraph extends DirectedSparseGraph<FlowObject, SequenceFlow> 
     }
 
     public boolean parallelExecution(FlowObject taskA, FlowObject taskB, Log workflowLog) {
-        return workflowLog.parallelExecution(taskA.getObjectName(), taskB.getObjectName());
+        return workflowLog.parallelExecution(this, taskA.getObjectName(), taskB.getObjectName());
     }
 
     public boolean parallelExecution(SequenceFlow flowA, SequenceFlow flowB, Log workflowLog) {

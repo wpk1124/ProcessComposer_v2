@@ -8,7 +8,9 @@ import java.util.List;
 public class Console {
     public static void main(final String[] args) {
         System.out.println("Reading TXT file");
-        Log log = SequenceReader.readTxtFile("killer1711.txt");
+        String fileName = "kkl2-project";
+
+        Log log = SequenceReader.readTxtFile(fileName+"-output.txt");
         //System.out.println(log.printWorkflowLog());
 /*
         List<Log> logList = ProcessComposer.groupTraces(log);
@@ -35,14 +37,15 @@ public class Console {
         BPgraph.printGraph("bpgraph.png");*/
 
 
+
 //Z TEGO KORZYSTAC
         ProcessGraph BPgraph = ProcessComposer.ComposeBP(log);
 
-        BPgraph.printGraph("bpgraph.png");
+        BPgraph.printGraph(fileName+"-bpgraph.png");
 
-        BPMNWriter.writeBPMNXML(BPgraph, "killer-model.bpmn", false);
+        BPMNWriter.writeBPMNXML(BPgraph, fileName+"-model.bpmn", false);
 
-//        System.out.println("Writing XES file");
-//        XESWriter.writeXESFile(log, "log-hiring.xes");
+        System.out.println("Writing XES file");
+        XESWriter.writeXESFile(log, fileName+"-log.xes", false);
     }
 }

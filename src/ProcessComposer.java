@@ -103,6 +103,7 @@ public class ProcessComposer {
         }
 
         ProcessGraph intermediateGraph = new ProcessGraph(BPGraph);
+        intermediateGraph.printGraph("bpgraph-splitonly.png");
 
         //add merge gateways (in edges)
         for(FlowObject originalVertex : componentProcess.getVertices()) {

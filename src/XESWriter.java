@@ -3,7 +3,7 @@ import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 
 public class XESWriter {
-    public static void writeXESFile(Log workflowLog, String fileName) {
+    public static void writeXESFile(Log workflowLog, String fileName, boolean addEndTask) {
         String myFavouriteDate = "2017-05-29";
         try {
             PrintWriter writer = new PrintWriter(fileName, "UTF-8");
@@ -44,12 +44,14 @@ public class XESWriter {
                     writer.println("</event>");
                     j++;
                 }
-                writer.println("<event>");
-                writer.println("<string key=\"concept:name\" value=\"*END*\"/>");
-                writer.println("<string key=\"lifecycle:transition\" value=\"complete\"/>");
-                writer.println("<date key=\"time:timestamp\" value=\""+myFavouriteDate+"T21:"+j+":00.000+02:00\"/>");
-                //writer.println("<string key=\"Column_2\" value="+s+"/>");
-                writer.println("</event>");
+                if(addEndTask) {
+                    writer.println("<event>");
+                    writer.println("<string key=\"concept:name\" value=\"*END*\"/>");
+                    writer.println("<string key=\"lifecycle:transition\" value=\"complete\"/>");
+                    writer.println("<date key=\"time:timestamp\" value=\"" + myFavouriteDate + "T21:" + j + ":00.000+02:00\"/>");
+                    //writer.println("<string key=\"Column_2\" value="+s+"/>");
+                    writer.println("</event>");
+                }
                 writer.println("</trace>");
                 i++;
             }
