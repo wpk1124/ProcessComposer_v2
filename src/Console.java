@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Created by piotr on 07.11.2017.
@@ -7,45 +8,56 @@ import java.util.List;
 
 public class Console {
     public static void main(final String[] args) {
-        System.out.println("Reading TXT file");
-        String fileName = "kkl2-project";
+        System.out.println("Insert name of the log file (without extension):");
+        Scanner reader = new Scanner(System.in);
+        String fileName = reader.nextLine();
+        System.out.println("Reading TXT file...");
+        Log log = SequenceReader.readTxtFile(fileName+".txt");
+        boolean looping = true;
+        if(log != null)
+            System.out.println("Log file loaded");
+        else
+            looping = false;
 
-        Log log = SequenceReader.readTxtFile(fileName+"-output.txt");
-        //System.out.println(log.printWorkflowLog());
-/*
-        List<Log> logList = ProcessComposer.groupTraces(log);
-        List<ProcessGraph> graphs = new ArrayList<>();
-        int i=0;
+        while (looping) {
+            System.out.println("\n************************************************");
+            System.out.println("Choose action:");
+            System.out.println("1 - write XES file");
+            System.out.println("2 - compose BPMN process");
+            System.out.println("3 - compose BPMN process in debug mode");
+            System.out.println("0 - exit");
+            try {
+                int selection = Integer.parseInt(reader.nextLine());
+                switch (selection) {
+                    case 1:
+                        System.out.println("Writing XES file");
+                        XESWriter.writeXESFile(log, fileName + "-log.xes", false);
+                        System.out.println("File saved as " + fileName + "-log.xes");
+                        break;
+                    case 2:
+                    case 3:
+                        System.out.println("Composing BPMN process");
+                        ProcessGraph BPgraph = ProcessComposer.ComposeBP(log);
+                        if(selection == 3) {
+                            BPgraph.printGraph(fileName+"-bpgraph.png");
+                            System.out.println("Process graph saved as " + fileName + "-bpgraph.png");
+                        }
+                        BPMNWriter.writeBPMNXML(BPgraph, fileName+"-model.bpmn", false);
+                        System.out.println("BPMN model saved as " + fileName + "-model.bpmn");
+                        break;
+                    case 0:
+                        System.out.println("See you again!");
+                        looping = false;
+                        break;
+                    default:
+                        System.out.println("Incorrect choice");
+                        break;
+                }
+            }
+            catch (NumberFormatException nfe) {
+                System.out.println("Incorrect choice");
+            }
 
-        for(Log l : logList) {
-            graphs.add(ProcessComposer.buildProcessGraph(l));
-            graphs.get(i).printGraph("component" + ++i + ".png");
-            System.out.println("Trace group " + i);
-            System.out.println(l.printWorkflowLog());
         }
-
-        ProcessGraph merged = new ProcessGraph(false);
-        i=0;
-        for(ProcessGraph g : graphs) {
-            merged = ProcessComposer.mergeGraphs(merged, g);
-            merged.printGraph("merged" + ++i + ".png");
-        }
-
-        merged.printGraph("merged123.png");
-
-        ProcessGraph BPgraph = ProcessComposer.createBPGraph(merged);
-        BPgraph.printGraph("bpgraph.png");*/
-
-
-
-//Z TEGO KORZYSTAC
-        ProcessGraph BPgraph = ProcessComposer.ComposeBP(log);
-
-        BPgraph.printGraph(fileName+"-bpgraph.png");
-
-        BPMNWriter.writeBPMNXML(BPgraph, fileName+"-model.bpmn", false);
-
-        System.out.println("Writing XES file");
-        XESWriter.writeXESFile(log, fileName+"-log.xes", false);
     }
 }

@@ -80,7 +80,7 @@ public class Log {
                     tempGraph.removeEdge(edgeToRemove);
                 }
                 path = new DijkstraShortestPath(tempGraph);
-                if (path.getPath(tempGraph.getFlowObject(taskB), tempGraph.getFlowObject(taskA)) != null)
+                if (path.getPath(tempGraph.getFlowObject(taskB), tempGraph.getFlowObject(taskA)).size() > 0)
                     executedInParallel = false;
             }
         }

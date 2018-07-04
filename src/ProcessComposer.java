@@ -7,8 +7,6 @@ import org.apache.commons.collections15.CollectionUtils;
 import java.util.*;
 import java.util.concurrent.Flow;
 
-//Problem - łączenie w jednym punkcie bramek AND i XOR, wyjście przebiegów równoległych i alternatywnych z jednego punktu (przejrzeć przykłady)
-
 public class ProcessComposer {
 
     public static ProcessGraph ComposeBP(Log workflowlog) {
@@ -77,8 +75,8 @@ public class ProcessComposer {
             componentProcess.removeEdge(e);
 
         //DEBUG - print intermediate model
-        ProcessGraph toPrint = new ProcessGraph(componentProcess);
-        toPrint.printGraph("bpgraph-nogateways.png");
+        //ProcessGraph toPrint = new ProcessGraph(componentProcess);
+        //toPrint.printGraph("bpgraph-nogateways.png");
 
         ProcessGraph BPGraph = new ProcessGraph(componentProcess);
         //add split gateways (out edges)
@@ -128,7 +126,6 @@ public class ProcessComposer {
             }
         }
 
-
         return BPGraph;
     }
 
@@ -153,7 +150,7 @@ public class ProcessComposer {
     }
 
 
-// December methods
+// Disused methods
     public static List<Log> groupTraces(Log workflowLog) {
         //copy of the initial workflow log and its list of traces
         Log logSet = new Log(workflowLog.getWorkflowLog());
@@ -203,8 +200,8 @@ public class ProcessComposer {
             componentProcess.addNewSequenceFlow(firstTask, "End");
         }
         //DEBUG - print intermediate model
-        ProcessGraph toPrint = new ProcessGraph(componentProcess);
-        toPrint.printGraph("intermediate.png");
+//        ProcessGraph toPrint = new ProcessGraph(componentProcess);
+//        toPrint.printGraph("intermediate.png");
         //refine edges
         Collection<SequenceFlow> edgesToRemove = new ArrayList<>();
         for(SequenceFlow edge : componentProcess.getEdges()) {
@@ -237,10 +234,6 @@ public class ProcessComposer {
         }
         for(SequenceFlow e : edgesToRemove)
             componentProcess.removeEdge(e);
-
-        //refine edges - 1. Edges are doubled A-B and B-A. 2. A and B are executed only once in every trace. 3. (not) A or B is always first in the log.
-        //bramka AND w petli nie zadziala, chociaz mozna to robic wtedy hierarchicznie
-        //sprobowac warunek 2 zamienic na taka sama liczbe wystapien A i B
 
         return componentProcess;
     }
@@ -326,12 +319,6 @@ public class ProcessComposer {
 
         return BPGraph;
     }
-
-    //old way of doing:
-    //identify loops
-    //identify branching areas
-    //divide into phases
-    //merge
 
     private static <T> boolean listEqualsIgnoreOrder(List<T> list1, List<T> list2) {
         return new HashSet<>(list1).equals(new HashSet<>(list2));

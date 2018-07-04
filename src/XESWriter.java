@@ -4,11 +4,11 @@ import java.io.UnsupportedEncodingException;
 
 public class XESWriter {
     public static void writeXESFile(Log workflowLog, String fileName, boolean addEndTask) {
-        String myFavouriteDate = "2017-05-29";
+        String myFavouriteDate = "2018-06-19";
         try {
             PrintWriter writer = new PrintWriter(fileName, "UTF-8");
             writer.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
-            writer.println("<log xes.version=\"1.0\" xmlns=\"http://www.xes-standard.org\" xes.creator=\"PW-DDR\">");
+            writer.println("<log xes.version=\"1.0\" xmlns=\"http://www.xes-standard.org\" xes.creator=\"Process Composer\">");
             writer.println("<extension name=\"Concept\" prefix=\"concept\" uri=\"http://www.xes-standard.org/concept.xesext\"/>");
             writer.println("<extension name=\"Lifecycle\" prefix=\"lifecycle\" uri=\"http://www.xes-standard.org/lifecycle.xesext\"/>");
             writer.println("<extension name=\"Time\" prefix=\"time\" uri=\"http://www.xes-standard.org/time.xesext\"/>");
