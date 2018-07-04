@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.omg.org/bpmn20" exporter="PW" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+
+<process id="proc_1561502550">
+<exclusiveGateway id="1558763625" name="XORjoin#J" gatewayDirection="Converging">
+<incoming>
+669965156
+</incoming>
+<incoming>
+1690713209
+</incoming>
+<outgoing>
+835146383
+</outgoing>
+</exclusiveGateway>
+<task id="1387380406" name="P"/>
+<task id="2108763062" name="V"/>
+<parallelGateway id="899543194" name="ANDsplit#R" gatewayDirection="Diverging">
+<incoming>
+1138697171
+</incoming>
+<outgoing>
+2032891036
+</outgoing>
+<outgoing>
+1835073088
+</outgoing>
+</parallelGateway>
+<task id="454104863" name="Y"/>
+<task id="767904468" name="U"/>
+<task id="124888672" name="O"/>
+<parallelGateway id="1262548561" name="ANDjoin1262548561" gatewayDirection="Converging">
+<incoming>
+86558824
+</incoming>
+<incoming>
+224591451
+</incoming>
+<outgoing>
+1180858072
+</outgoing>
+</parallelGateway>
+<parallelGateway id="2135449562" name="ANDsplit#Y" gatewayDirection="Diverging">
+<incoming>
+673586830
+</incoming>
+<outgoing>
+1368173251
+</outgoing>
+<outgoing>
+795011696
+</outgoing>
+</parallelGateway>
+<task id="652433136" name="S"/>
+<task id="1498438472" name="I"/>
+<exclusiveGateway id="1259639178" name="XORjoin#P" gatewayDirection="Converging">
+<incoming>
+1830745997
+</incoming>
+<incoming>
+443290224
+</incoming>
+<outgoing>
+413218476
+</outgoing>
+</exclusiveGateway>
+<task id="120478350" name="AE"/>
+<exclusiveGateway id="897848096" name="XORsplit#F" gatewayDirection="Diverging">
+<incoming>
+1640296160
+</incoming>
+<outgoing>
+1863374262
+</outgoing>
+<outgoing>
+272678513
+</outgoing>
+</exclusiveGateway>
+<exclusiveGateway id="1688470144" name="XORjoin1688470144" gatewayDirection="Converging">
+<incoming>
+1118840610
+</incoming>
+<incoming>
+1234586997
+</incoming>
+<outgoing>
+86558824
+</outgoing>
+</exclusiveGateway>
+<startEvent id="690052870" name="Start"/>
+<task id="1219273867" name="C"/>
+<task id="1205445235" name="X"/>
+<task id="1403700359" name="D"/>
+<parallelGateway id="271095942" name="ANDsplit#L" gatewayDirection="Diverging">
+<incoming>
+1552341957
+</incoming>
+<outgoing>
+1176164144
+</outgoing>
+<outgoing>
+1323434987
+</outgoing>
+</parallelGateway>
+<task id="335359181" name="M"/>
+<exclusiveGateway id="1168924571" name="XORjoin1168924571" gatewayDirection="Converging">
+<incoming>
+1368173251
+</incoming>
+<incoming>
+1333041165
+</incoming>
+<incoming>
+1745043985
+</incoming>
+<outgoing>
+1815556070
+</outgoing>
+</exclusiveGateway>
+<exclusiveGateway id="729218894" name="XORjoin#AC" gatewayDirection="Converging">
+<incoming>
+795011696
+</incoming>
+<incoming>
+2048013503
+</incoming>
+<outgoing>
+616207929
+</outgoing>
+</exclusiveGateway>
+<parallelGateway id="1406919011" name="ANDjoin#N" gatewayDirection="Converging">
+<incoming>
+883455411
+</incoming>
+<incoming>
+229995302
+</incoming>
+<outgoing>
+1195942137
+</outgoing>
+</parallelGateway>
+<task id="1276709283" name="B"/>
+<parallelGateway id="1651162064" name="ANDsplit#K" gatewayDirection="Diverging">
+<incoming>
+379303133
+</incoming>
+<outgoing>
+1811922029
+</outgoing>
+<outgoing>
+443290224
+</outgoing>
+</parallelGateway>
+<task id="1349182676" name="W"/>
+<task id="670663110" name="AA"/>
+<task id="2017085051" name="A"/>
+<exclusiveGateway id="811597470" name="XORsplit#B" gatewayDirection="Diverging">
+<incoming>
+808228639
+</incoming>
+<outgoing>
+1118840610
+</outgoing>
+<outgoing>
+2061543916
+</outgoing>
+</exclusiveGateway>
+<endEvent id="1180244251" name="End"/>
+<task id="1432569632" name="R"/>
+<exclusiveGateway id="442125849" name="XORsplit#W" gatewayDirection="Diverging">
+<incoming>
+1885922916
+</incoming>
+<outgoing>
+1624972302
+</outgoing>
+<outgoing>
+1048098469
+</outgoing>
+</exclusiveGateway>
+<exclusiveGateway id="950698351" name="XORjoin#L" gatewayDirection="Converging">
+<incoming>
+1408695561
+</incoming>
+<incoming>
+1811922029
+</incoming>
+<outgoing>
+461698165
+</outgoing>
+</exclusiveGateway>
+<task id="1809194904" name="L"/>
+<exclusiveGateway id="1813666644" name="XORsplit#AA" gatewayDirection="Diverging">
+<incoming>
+477533894
+</incoming>
+<outgoing>
+538185145
+</outgoing>
+<outgoing>
+1025001676
+</outgoing>
+</exclusiveGateway>
+<task id="1267655902" name="G"/>
+<task id="1944702768" name="Q"/>
+<exclusiveGateway id="1158258131" name="XORsplit#X" gatewayDirection="Diverging">
+<incoming>
+20853837
+</incoming>
+<outgoing>
+1702143276
+</outgoing>
+<outgoing>
+33533830
+</outgoing>
+</exclusiveGateway>
+<exclusiveGateway id="2001321875" name="XORjoin#W" gatewayDirection="Converging">
+<incoming>
+87674905
+</incoming>
+<incoming>
+322112198
+</incoming>
+<outgoing>
+966966167
+</outgoing>
+</exclusiveGateway>
+<parallelGateway id="962944318" name="ANDjoin#AE" gatewayDirection="Converging">
+<incoming>
+888287133
+</incoming>
+<incoming>
+1025001676
+</incoming>
+<outgoing>
+2111457497
+</outgoing>
+</parallelGateway>
+<parallelGateway id="2084559714" name="ANDsplit#Z" gatewayDirection="Diverging">
+<incoming>
+542980314
+</incoming>
+<outgoing>
+1745043985
+</outgoing>
+<outgoing>
+2048013503
+</outgoing>
+</parallelGateway>
+<task id="227755469" name="J"/>
+<task id="2102368942" name="T"/>
+<parallelGateway id="1605851606" name="ANDsplit#J" gatewayDirection="Diverging">
+<incoming>
+1267556427
+</incoming>
+<outgoing>
+1408695561
+</outgoing>
+<outgoing>
+1830745997
+</outgoing>
+</parallelGateway>
+<parallelGateway id="1281025083" name="ANDsplit#A" gatewayDirection="Diverging">
+<incoming>
+40170008
+</incoming>
+<outgoing>
+901205084
+</outgoing>
+<outgoing>
+896982466
+</outgoing>
+</parallelGateway>
+<task id="290579508" name="H"/>
+<task id="656479172" name="Z"/>
+<task id="1424082571" name="N"/>
+<task id="762384154" name="AC"/>
+<exclusiveGateway id="602423811" name="XORsplit#E" gatewayDirection="Diverging">
+<incoming>
+429075478
+</incoming>
+<outgoing>
+1944798106
+</outgoing>
+<outgoing>
+1363560175
+</outgoing>
+</exclusiveGateway>
+<task id="1259174396" name="E"/>
+<parallelGateway id="1100399456" name="ANDjoin#R" gatewayDirection="Converging">
+<incoming>
+35984028
+</incoming>
+<incoming>
+68326648
+</incoming>
+<outgoing>
+541285440
+</outgoing>
+</parallelGateway>
+<task id="1325056130" name="K"/>
+<task id="658404420" name="AB"/>
+<task id="194707680" name="AD"/>
+<parallelGateway id="1823923917" name="ANDjoin#U" gatewayDirection="Converging">
+<incoming>
+261748192
+</incoming>
+<incoming>
+208684473
+</incoming>
+<outgoing>
+1789268516
+</outgoing>
+</parallelGateway>
+<task id="1116094714" name="F"/>
+<sequenceFlow id="1623009085" name="" sourceRef="1387380406" targetRef="1944702768"/>
+<sequenceFlow id="1789268516" name="" sourceRef="1823923917" targetRef="767904468"/>
+<sequenceFlow id="541285440" name="" sourceRef="1100399456" targetRef="1432569632"/>
+<sequenceFlow id="616207929" name="" sourceRef="729218894" targetRef="762384154"/>
+<sequenceFlow id="2111457497" name="" sourceRef="962944318" targetRef="120478350"/>
+<sequenceFlow id="429075478" name="" sourceRef="1259174396" targetRef="602423811"/>
+<sequenceFlow id="1466785259" name="" sourceRef="1267655902" targetRef="290579508"/>
+<sequenceFlow id="542980314" name="" sourceRef="656479172" targetRef="2084559714"/>
+<sequenceFlow id="1323434987" name="" sourceRef="271095942" targetRef="124888672"/>
+<sequenceFlow id="669965156" name="" sourceRef="290579508" targetRef="1558763625"/>
+<sequenceFlow id="1138697171" name="" sourceRef="1432569632" targetRef="899543194"/>
+<sequenceFlow id="2061543916" name="" sourceRef="811597470" targetRef="1403700359"/>
+<sequenceFlow id="1885922916" name="" sourceRef="1349182676" targetRef="442125849"/>
+<sequenceFlow id="413218476" name="" sourceRef="1259639178" targetRef="1387380406"/>
+<sequenceFlow id="1745043985" name="" sourceRef="2084559714" targetRef="1168924571"/>
+<sequenceFlow id="1118840610" name="" sourceRef="811597470" targetRef="1688470144"/>
+<sequenceFlow id="795011696" name="" sourceRef="2135449562" targetRef="729218894"/>
+<sequenceFlow id="1811922029" name="" sourceRef="1651162064" targetRef="950698351"/>
+<sequenceFlow id="229995302" name="" sourceRef="124888672" targetRef="1406919011"/>
+<sequenceFlow id="1830745997" name="" sourceRef="1605851606" targetRef="1259639178"/>
+<sequenceFlow id="883455411" name="" sourceRef="335359181" targetRef="1406919011"/>
+<sequenceFlow id="443290224" name="" sourceRef="1651162064" targetRef="1259639178"/>
+<sequenceFlow id="1835073088" name="" sourceRef="899543194" targetRef="652433136"/>
+<sequenceFlow id="87674905" name="" sourceRef="120478350" targetRef="2001321875"/>
+<sequenceFlow id="1640296160" name="" sourceRef="1116094714" targetRef="897848096"/>
+<sequenceFlow id="1863374262" name="" sourceRef="897848096" targetRef="1267655902"/>
+<sequenceFlow id="673586830" name="" sourceRef="454104863" targetRef="2135449562"/>
+<sequenceFlow id="1363560175" name="" sourceRef="602423811" targetRef="1116094714"/>
+<sequenceFlow id="1176164144" name="" sourceRef="271095942" targetRef="335359181"/>
+<sequenceFlow id="538185145" name="" sourceRef="1813666644" targetRef="658404420"/>
+<sequenceFlow id="2048013503" name="" sourceRef="2084559714" targetRef="729218894"/>
+<sequenceFlow id="477533894" name="" sourceRef="670663110" targetRef="1813666644"/>
+<sequenceFlow id="272678513" name="" sourceRef="897848096" targetRef="1498438472"/>
+<sequenceFlow id="1195942137" name="" sourceRef="1406919011" targetRef="1424082571"/>
+<sequenceFlow id="808228639" name="" sourceRef="1276709283" targetRef="811597470"/>
+<sequenceFlow id="896982466" name="" sourceRef="1281025083" targetRef="1276709283"/>
+<sequenceFlow id="966966167" name="" sourceRef="2001321875" targetRef="1349182676"/>
+<sequenceFlow id="2032891036" name="" sourceRef="899543194" targetRef="2102368942"/>
+<sequenceFlow id="35984028" name="" sourceRef="1944702768" targetRef="1100399456"/>
+<sequenceFlow id="224591451" name="" sourceRef="1219273867" targetRef="1262548561"/>
+<sequenceFlow id="1180858072" name="" sourceRef="1262548561" targetRef="1259174396"/>
+<sequenceFlow id="1690713209" name="" sourceRef="1498438472" targetRef="1558763625"/>
+<sequenceFlow id="86558824" name="" sourceRef="1688470144" targetRef="1262548561"/>
+<sequenceFlow id="1552341957" name="" sourceRef="1809194904" targetRef="271095942"/>
+<sequenceFlow id="1183231938" name="" sourceRef="194707680" targetRef="1180244251"/>
+<sequenceFlow id="1267556427" name="" sourceRef="227755469" targetRef="1605851606"/>
+<sequenceFlow id="379303133" name="" sourceRef="1325056130" targetRef="1651162064"/>
+<sequenceFlow id="835146383" name="" sourceRef="1558763625" targetRef="227755469"/>
+<sequenceFlow id="208684473" name="" sourceRef="652433136" targetRef="1823923917"/>
+<sequenceFlow id="1368173251" name="" sourceRef="2135449562" targetRef="1168924571"/>
+<sequenceFlow id="1815556070" name="" sourceRef="1168924571" targetRef="670663110"/>
+<sequenceFlow id="1397381784" name="" sourceRef="767904468" targetRef="2108763062"/>
+<sequenceFlow id="1025001676" name="" sourceRef="1813666644" targetRef="962944318"/>
+<sequenceFlow id="1624972302" name="" sourceRef="442125849" targetRef="1205445235"/>
+<sequenceFlow id="1293241549" name="" sourceRef="690052870" targetRef="2017085051"/>
+<sequenceFlow id="1702143276" name="" sourceRef="1158258131" targetRef="656479172"/>
+<sequenceFlow id="1048098469" name="" sourceRef="442125849" targetRef="194707680"/>
+<sequenceFlow id="1234586997" name="" sourceRef="1403700359" targetRef="1688470144"/>
+<sequenceFlow id="68326648" name="" sourceRef="1424082571" targetRef="1100399456"/>
+<sequenceFlow id="901205084" name="" sourceRef="1281025083" targetRef="1219273867"/>
+<sequenceFlow id="888287133" name="" sourceRef="762384154" targetRef="962944318"/>
+<sequenceFlow id="1944798106" name="" sourceRef="602423811" targetRef="1325056130"/>
+<sequenceFlow id="461698165" name="" sourceRef="950698351" targetRef="1809194904"/>
+<sequenceFlow id="20853837" name="" sourceRef="1205445235" targetRef="1158258131"/>
+<sequenceFlow id="322112198" name="" sourceRef="2108763062" targetRef="2001321875"/>
+<sequenceFlow id="33533830" name="" sourceRef="1158258131" targetRef="454104863"/>
+<sequenceFlow id="1333041165" name="" sourceRef="658404420" targetRef="1168924571"/>
+<sequenceFlow id="261748192" name="" sourceRef="2102368942" targetRef="1823923917"/>
+<sequenceFlow id="40170008" name="" sourceRef="2017085051" targetRef="1281025083"/>
+<sequenceFlow id="1408695561" name="" sourceRef="1605851606" targetRef="950698351"/>
+</process>
+</definitions>

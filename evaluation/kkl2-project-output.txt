@@ -1,0 +1,31 @@
+Compiling process.mzn, with additional data KKL2-project.dzn
+Running process.mzn
+Workflow trace:
+"A-Syntax", "B-Preliminary", "E-Evaluation", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Syntax", "B-Preliminary", "C-Request", "D-Expecting", "A-Syntax", "B-Preliminary", "E-Evaluation", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Syntax", "C-Request", "D-Expecting", "A-Syntax", "B-Preliminary", "E-Evaluation", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Syntax", "C-Request", "D-Expecting", "A-Syntax", "C-Request", "D-Expecting", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Syntax", "B-Preliminary", "C-Request", "D-Expecting", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Syntax", "C-Request", "D-Expecting", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Syntax", "B-Preliminary", "C-Request", "D-Expecting", "A-Syntax", "B-Preliminary", "C-Request", "D-Expecting", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Syntax", "B-Preliminary", "C-Request", "D-Expecting", "A-Syntax", "C-Request", "D-Expecting", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Syntax", "C-Request", "D-Expecting", "A-Syntax", "B-Preliminary", "C-Request", "D-Expecting", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+==========
+Finished in 244msec

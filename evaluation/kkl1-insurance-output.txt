@@ -1,0 +1,22 @@
+Compiling process.mzn, with additional data KKL1-insurance.dzn
+Running process.mzn
+Workflow trace:
+"A-Enter", "B-CalculateBP", "E-CalculateOD", "D-CalculateDD", "C-CalculateCD", "F-CalculateIP", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Enter", "B-CalculateBP", "D-CalculateDD", "E-CalculateOD", "C-CalculateCD", "F-CalculateIP", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Enter", "B-CalculateBP", "E-CalculateOD", "C-CalculateCD", "D-CalculateDD", "F-CalculateIP", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Enter", "B-CalculateBP", "C-CalculateCD", "E-CalculateOD", "D-CalculateDD", "F-CalculateIP", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Enter", "B-CalculateBP", "D-CalculateDD", "C-CalculateCD", "E-CalculateOD", "F-CalculateIP", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"A-Enter", "B-CalculateBP", "C-CalculateCD", "D-CalculateDD", "E-CalculateOD", "F-CalculateIP", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+==========
+Finished in 212msec
