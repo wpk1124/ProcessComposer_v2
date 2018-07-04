@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.omg.org/bpmn20" exporter="PW" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+
+<process id="proc_669284403">
+<exclusiveGateway id="2038105753" name="XORjoin#Prepare Document" gatewayDirection="Converging">
+<incoming>
+652176954
+</incoming>
+<incoming>
+1513608173
+</incoming>
+<outgoing>
+1245065720
+</outgoing>
+</exclusiveGateway>
+<parallelGateway id="1432569632" name="ANDsplit#Schedule Status Review" gatewayDirection="Diverging">
+<incoming>
+1259174396
+</incoming>
+<outgoing>
+1116094714
+</outgoing>
+<outgoing>
+1276709283
+</outgoing>
+</parallelGateway>
+<task id="2122049087" name="Analyze Customer Relation"/>
+<startEvent id="257608605" name="Start"/>
+<task id="637241618" name="Confirm Customer Identifier"/>
+<task id="1483298597" name="Build Customer Profile"/>
+<task id="503642634" name="Open Banking Account"/>
+<task id="1636050357" name="Get Customer Coordinates"/>
+<exclusiveGateway id="1800976873" name="XORjoin#Identify Customer Account Selection" gatewayDirection="Converging">
+<incoming>
+1390913202
+</incoming>
+<incoming>
+253011924
+</incoming>
+<outgoing>
+698741991
+</outgoing>
+</exclusiveGateway>
+<task id="1632413663" name="Check Deposit"/>
+<task id="1725165248" name="Propose Account Opening"/>
+<task id="1412794598" name="Register Deposit"/>
+<task id="1567705314" name="Prepare Document"/>
+<task id="1523553211" name="Schedule Status Review"/>
+<task id="1825738663" name="Record Customer Information"/>
+<task id="2082781203" name="Identify Customer Account Selection"/>
+<task id="452121674" name="Review Account Status"/>
+<task id="416841088" name="Select Account Type"/>
+<exclusiveGateway id="1325056130" name="XORsplit#Get Customer Coordinates" gatewayDirection="Diverging">
+<incoming>
+1809194904
+</incoming>
+<outgoing>
+1219273867
+</outgoing>
+<outgoing>
+335359181
+</outgoing>
+</exclusiveGateway>
+<parallelGateway id="1129944640" name="ANDjoin1129944640" gatewayDirection="Converging">
+<incoming>
+88397182
+</incoming>
+<incoming>
+409195262
+</incoming>
+<incoming>
+1438988851
+</incoming>
+<incoming>
+394771492
+</incoming>
+<outgoing>
+1404565079
+</outgoing>
+</parallelGateway>
+<task id="1337192014" name="Retrieve Customer Information"/>
+<parallelGateway id="633240419" name="ANDsplit633240419" gatewayDirection="Diverging">
+<incoming>
+1250121181
+</incoming>
+<outgoing>
+79782883
+</outgoing>
+<outgoing>
+1171802656
+</outgoing>
+<outgoing>
+1391624125
+</outgoing>
+</parallelGateway>
+<endEvent id="1194893830" name="End"/>
+<exclusiveGateway id="227755469" name="XORsplit#Check Deposit" gatewayDirection="Diverging">
+<incoming>
+762384154
+</incoming>
+<outgoing>
+1513608173
+</outgoing>
+<outgoing>
+690052870
+</outgoing>
+</exclusiveGateway>
+<sequenceFlow id="253011924" name="" sourceRef="1483298597" targetRef="1800976873"/>
+<sequenceFlow id="1387210478" name="" sourceRef="416841088" targetRef="1632413663"/>
+<sequenceFlow id="812553708" name="" sourceRef="2082781203" targetRef="416841088"/>
+<sequenceFlow id="698741991" name="" sourceRef="1800976873" targetRef="2082781203"/>
+<sequenceFlow id="455785638" name="" sourceRef="503642634" targetRef="1194893830"/>
+<sequenceFlow id="1809194904" name="" sourceRef="1636050357" targetRef="1325056130"/>
+<sequenceFlow id="1245065720" name="" sourceRef="2038105753" targetRef="1567705314"/>
+<sequenceFlow id="1391624125" name="" sourceRef="633240419" targetRef="1825738663"/>
+<sequenceFlow id="1390913202" name="" sourceRef="2122049087" targetRef="1800976873"/>
+<sequenceFlow id="1537471098" name="" sourceRef="257608605" targetRef="1636050357"/>
+<sequenceFlow id="1513608173" name="" sourceRef="227755469" targetRef="2038105753"/>
+<sequenceFlow id="409195262" name="" sourceRef="1825738663" targetRef="1129944640"/>
+<sequenceFlow id="1250121181" name="" sourceRef="1567705314" targetRef="633240419"/>
+<sequenceFlow id="1404565079" name="" sourceRef="1129944640" targetRef="503642634"/>
+<sequenceFlow id="79782883" name="" sourceRef="633240419" targetRef="1725165248"/>
+<sequenceFlow id="394771492" name="" sourceRef="637241618" targetRef="1129944640"/>
+<sequenceFlow id="652176954" name="" sourceRef="1412794598" targetRef="2038105753"/>
+<sequenceFlow id="690052870" name="" sourceRef="227755469" targetRef="1412794598"/>
+<sequenceFlow id="1219273867" name="" sourceRef="1325056130" targetRef="1483298597"/>
+<sequenceFlow id="762384154" name="" sourceRef="1632413663" targetRef="227755469"/>
+<sequenceFlow id="335359181" name="" sourceRef="1325056130" targetRef="1337192014"/>
+<sequenceFlow id="1259174396" name="" sourceRef="1523553211" targetRef="1432569632"/>
+<sequenceFlow id="122114483" name="" sourceRef="1337192014" targetRef="2122049087"/>
+<sequenceFlow id="1438988851" name="" sourceRef="452121674" targetRef="1129944640"/>
+<sequenceFlow id="1171802656" name="" sourceRef="633240419" targetRef="1523553211"/>
+<sequenceFlow id="1276709283" name="" sourceRef="1432569632" targetRef="637241618"/>
+<sequenceFlow id="88397182" name="" sourceRef="1725165248" targetRef="1129944640"/>
+<sequenceFlow id="1116094714" name="" sourceRef="1432569632" targetRef="452121674"/>
+</process>
+</definitions>

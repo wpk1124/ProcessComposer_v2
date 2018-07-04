@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log xes.version="1.0" xmlns="http://www.xes-standard.org" xes.creator="PW-DDR">
+<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+<global scope="trace">
+<string key="concept:name" value="name"/>
+<string key="variant" value="string"/>
+<int key="variant-index" value="0"/>
+</global>
+<global scope="event">
+<string key="concept:name" value="name"/>
+<string key="lifecycle:transition" value="transition"/>
+<date key="time:timestamp" value="2017-05-29T21:08:59.999+02:00"/>
+</global>
+<string key="lifecycle:model" value="standard"/>
+<string key="creator" value="Fluxicon Disco"/>
+<string key="library" value="Process Composer"/>
+<trace>
+<string key="concept:name" value="1"/>
+<string key="variant" value="Variant 1"/>
+<int key="variant-index" value="1"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Enter"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-CalculateBP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-CalculateOD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-CalculateDD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-CalculateCD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-CalculateIP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="2"/>
+<string key="variant" value="Variant 2"/>
+<int key="variant-index" value="2"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Enter"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-CalculateBP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-CalculateDD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-CalculateOD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-CalculateCD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-CalculateIP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="3"/>
+<string key="variant" value="Variant 3"/>
+<int key="variant-index" value="3"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Enter"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-CalculateBP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-CalculateOD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-CalculateCD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-CalculateDD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-CalculateIP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="4"/>
+<string key="variant" value="Variant 4"/>
+<int key="variant-index" value="4"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Enter"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-CalculateBP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-CalculateCD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-CalculateOD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-CalculateDD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-CalculateIP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="5"/>
+<string key="variant" value="Variant 5"/>
+<int key="variant-index" value="5"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Enter"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-CalculateBP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-CalculateDD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-CalculateCD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-CalculateOD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-CalculateIP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="6"/>
+<string key="variant" value="Variant 6"/>
+<int key="variant-index" value="6"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Enter"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-CalculateBP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-CalculateCD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-CalculateDD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-CalculateOD"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-CalculateIP"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+</trace>
+</log>

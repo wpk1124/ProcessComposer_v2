@@ -1,0 +1,320 @@
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Record Customer Information", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Record Customer Information", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Record Customer Information", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Propose Account Opening", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Record Customer Information", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Propose Account Opening", "Open Banking Account", "", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Record Customer Information", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Record Customer Information", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Record Customer Information", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Build Customer Profile", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Record Customer Information", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Record Customer Information", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Record Customer Information", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Propose Account Opening", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Record Customer Information", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Record Customer Information", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Record Customer Information", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Review Account Status", "Record Customer Information", "Propose Account Opening", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Confirm Customer Identifier", "Record Customer Information", "Propose Account Opening", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Propose Account Opening", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Propose Account Opening", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Propose Account Opening", "Record Customer Information", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Confirm Customer Identifier", "Record Customer Information", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Confirm Customer Identifier", "Record Customer Information", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Confirm Customer Identifier", "Propose Account Opening", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Record Customer Information", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Propose Account Opening", "Confirm Customer Identifier", "Review Account Status", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Propose Account Opening", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Review Account Status", "Record Customer Information", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Review Account Status", "Record Customer Information", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Review Account Status", "Propose Account Opening", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Propose Account Opening", "Record Customer Information", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------
+"Get Customer Coordinates", "Retrieve Customer Information", "Analyze Customer Relation", "Identify Customer Account Selection", "Select Account Type", "Check Deposit", "Register Deposit", "Prepare Document", "Schedule Status Review", "Record Customer Information", "Propose Account Opening", "Review Account Status", "Confirm Customer Identifier", "Open Banking Account", "", 
+----------

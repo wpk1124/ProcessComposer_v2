@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.omg.org/bpmn20" exporter="PW" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+
+<process id="proc_1055096410">
+<task id="2014461570" name="A-Enter"/>
+<parallelGateway id="501705927" name="ANDjoin501705927" gatewayDirection="Converging">
+<incoming>
+1515638188
+</incoming>
+<incoming>
+1497018177
+</incoming>
+<incoming>
+2087785333
+</incoming>
+<outgoing>
+1473205473
+</outgoing>
+</parallelGateway>
+<task id="1898155970" name="F-CalculateIP"/>
+<startEvent id="1714113641" name="Start"/>
+<task id="262445056" name="C-CalculateCD"/>
+<task id="1992550266" name="D-CalculateDD"/>
+<endEvent id="263885523" name="End"/>
+<parallelGateway id="637241618" name="ANDsplit637241618" gatewayDirection="Diverging">
+<incoming>
+1537471098
+</incoming>
+<outgoing>
+2077528955
+</outgoing>
+<outgoing>
+741730375
+</outgoing>
+<outgoing>
+35534346
+</outgoing>
+</parallelGateway>
+<task id="1740846921" name="B-CalculateBP"/>
+<task id="710190911" name="E-CalculateOD"/>
+<sequenceFlow id="2087785333" name="" sourceRef="710190911" targetRef="501705927"/>
+<sequenceFlow id="1006227006" name="" sourceRef="1898155970" targetRef="263885523"/>
+<sequenceFlow id="1473205473" name="" sourceRef="501705927" targetRef="1898155970"/>
+<sequenceFlow id="2077528955" name="" sourceRef="637241618" targetRef="262445056"/>
+<sequenceFlow id="198499365" name="" sourceRef="1714113641" targetRef="2014461570"/>
+<sequenceFlow id="741730375" name="" sourceRef="637241618" targetRef="1992550266"/>
+<sequenceFlow id="35534346" name="" sourceRef="637241618" targetRef="710190911"/>
+<sequenceFlow id="379645464" name="" sourceRef="2014461570" targetRef="1740846921"/>
+<sequenceFlow id="1537471098" name="" sourceRef="1740846921" targetRef="637241618"/>
+<sequenceFlow id="1515638188" name="" sourceRef="262445056" targetRef="501705927"/>
+<sequenceFlow id="1497018177" name="" sourceRef="1992550266" targetRef="501705927"/>
+</process>
+</definitions>

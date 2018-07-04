@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.omg.org/bpmn20" exporter="PW" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+
+<process id="proc_580673921">
+<task id="1207608476" name="Receive Packing Slip"/>
+<task id="550302731" name="Reprocess Order"/>
+<task id="900636745" name="Send Order"/>
+<exclusiveGateway id="1483298597" name="XORsplit#Check Inventory" gatewayDirection="Diverging">
+<incoming>
+1412794598
+</incoming>
+<outgoing>
+2067180044
+</outgoing>
+<outgoing>
+1337192014
+</outgoing>
+</exclusiveGateway>
+<task id="1201173334" name="Create Order"/>
+<exclusiveGateway id="503642634" name="XORsplit#Approve Order" gatewayDirection="Diverging">
+<incoming>
+452121674
+</incoming>
+<outgoing>
+416841088
+</outgoing>
+<outgoing>
+1636050357
+</outgoing>
+</exclusiveGateway>
+<task id="1110031167" name="Release Funds"/>
+<task id="1456339771" name="Approve Order"/>
+<parallelGateway id="1297502382" name="ANDjoin#Release Funds" gatewayDirection="Converging">
+<incoming>
+171493374
+</incoming>
+<incoming>
+1876682596
+</incoming>
+<outgoing>
+1371957475
+</outgoing>
+</parallelGateway>
+<task id="259219561" name="Reserve Funds"/>
+<task id="1839337592" name="Record Invoice"/>
+<task id="2146338580" name="Issue Payment"/>
+<task id="730923082" name="Check Inventory"/>
+<task id="686989583" name="Receive Invoice"/>
+<endEvent id="800281454" name="End"/>
+<parallelGateway id="1727361096" name="ANDsplit#Send Order" gatewayDirection="Diverging">
+<incoming>
+1426963578
+</incoming>
+<outgoing>
+556281560
+</outgoing>
+<outgoing>
+915500720
+</outgoing>
+</parallelGateway>
+<exclusiveGateway id="1250442005" name="XORjoin#End" gatewayDirection="Converging">
+<incoming>
+627318073
+</incoming>
+<incoming>
+2067180044
+</incoming>
+<outgoing>
+1478797373
+</outgoing>
+</exclusiveGateway>
+<startEvent id="379478400" name="Start"/>
+<task id="1912960603" name="Record Packing Slip"/>
+<exclusiveGateway id="778731861" name="XORjoin#Approve Order" gatewayDirection="Converging">
+<incoming>
+1646371921
+</incoming>
+<incoming>
+1383178166
+</incoming>
+<outgoing>
+806511723
+</outgoing>
+</exclusiveGateway>
+<sequenceFlow id="915500720" name="" sourceRef="1727361096" targetRef="686989583"/>
+<sequenceFlow id="1371957475" name="" sourceRef="1297502382" targetRef="1110031167"/>
+<sequenceFlow id="171493374" name="" sourceRef="1839337592" targetRef="1297502382"/>
+<sequenceFlow id="1383178166" name="" sourceRef="1201173334" targetRef="778731861"/>
+<sequenceFlow id="586127428" name="" sourceRef="1110031167" targetRef="2146338580"/>
+<sequenceFlow id="556281560" name="" sourceRef="1727361096" targetRef="1207608476"/>
+<sequenceFlow id="1646371921" name="" sourceRef="550302731" targetRef="778731861"/>
+<sequenceFlow id="1636050357" name="" sourceRef="503642634" targetRef="259219561"/>
+<sequenceFlow id="790722099" name="" sourceRef="686989583" targetRef="1839337592"/>
+<sequenceFlow id="1632413663" name="" sourceRef="379478400" targetRef="730923082"/>
+<sequenceFlow id="1412794598" name="" sourceRef="730923082" targetRef="1483298597"/>
+<sequenceFlow id="497208183" name="" sourceRef="259219561" targetRef="900636745"/>
+<sequenceFlow id="1426963578" name="" sourceRef="900636745" targetRef="1727361096"/>
+<sequenceFlow id="452121674" name="" sourceRef="1456339771" targetRef="503642634"/>
+<sequenceFlow id="416841088" name="" sourceRef="503642634" targetRef="550302731"/>
+<sequenceFlow id="806511723" name="" sourceRef="778731861" targetRef="1456339771"/>
+<sequenceFlow id="1478797373" name="" sourceRef="1250442005" targetRef="800281454"/>
+<sequenceFlow id="2067180044" name="" sourceRef="1483298597" targetRef="1250442005"/>
+<sequenceFlow id="1337192014" name="" sourceRef="1483298597" targetRef="1201173334"/>
+<sequenceFlow id="627318073" name="" sourceRef="2146338580" targetRef="1250442005"/>
+<sequenceFlow id="1194893830" name="" sourceRef="1207608476" targetRef="1912960603"/>
+<sequenceFlow id="1876682596" name="" sourceRef="1912960603" targetRef="1297502382"/>
+</process>
+</definitions>

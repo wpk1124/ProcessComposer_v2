@@ -1,0 +1,43 @@
+Compiling process.mzn, with additional data supply-process.dzn
+Running process.mzn
+Workflow trace:
+"Check Inventory", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Invoice", "Record Invoice", "Receive Packing Slip", "Record Packing Slip", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Invoice", "Receive Packing Slip", "Record Packing Slip", "Record Invoice", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Invoice", "Receive Packing Slip", "Record Invoice", "Record Packing Slip", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Packing Slip", "Record Packing Slip", "Receive Invoice", "Record Invoice", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Packing Slip", "Receive Invoice", "Record Packing Slip", "Record Invoice", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Packing Slip", "Receive Invoice", "Record Invoice", "Record Packing Slip", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reprocess Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Packing Slip", "Record Packing Slip", "Receive Invoice", "Record Invoice", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reprocess Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Packing Slip", "Receive Invoice", "Record Invoice", "Record Packing Slip", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reprocess Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Packing Slip", "Receive Invoice", "Record Packing Slip", "Record Invoice", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reprocess Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Invoice", "Receive Packing Slip", "Record Packing Slip", "Record Invoice", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reprocess Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Invoice", "Record Invoice", "Receive Packing Slip", "Record Packing Slip", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+Workflow trace:
+"Check Inventory", "Create Order", "Approve Order", "Reprocess Order", "Approve Order", "Reserve Funds", "Send Order", "Receive Invoice", "Receive Packing Slip", "Record Invoice", "Record Packing Slip", "Release Funds", "Issue Payment", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", 
+----------
+==========
+Finished in 479msec

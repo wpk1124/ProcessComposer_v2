@@ -1,0 +1,2245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log xes.version="1.0" xmlns="http://www.xes-standard.org" xes.creator="PW-DDR">
+<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+<global scope="trace">
+<string key="concept:name" value="name"/>
+<string key="variant" value="string"/>
+<int key="variant-index" value="0"/>
+</global>
+<global scope="event">
+<string key="concept:name" value="name"/>
+<string key="lifecycle:transition" value="transition"/>
+<date key="time:timestamp" value="2017-05-29T21:08:59.999+02:00"/>
+</global>
+<string key="lifecycle:model" value="standard"/>
+<string key="creator" value="Fluxicon Disco"/>
+<string key="library" value="Process Composer"/>
+<trace>
+<string key="concept:name" value="1"/>
+<string key="variant" value="Variant 1"/>
+<int key="variant-index" value="1"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="2"/>
+<string key="variant" value="Variant 2"/>
+<int key="variant-index" value="2"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="3"/>
+<string key="variant" value="Variant 3"/>
+<int key="variant-index" value="3"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="4"/>
+<string key="variant" value="Variant 4"/>
+<int key="variant-index" value="4"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="5"/>
+<string key="variant" value="Variant 5"/>
+<int key="variant-index" value="5"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="6"/>
+<string key="variant" value="Variant 6"/>
+<int key="variant-index" value="6"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="7"/>
+<string key="variant" value="Variant 7"/>
+<int key="variant-index" value="7"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="8"/>
+<string key="variant" value="Variant 8"/>
+<int key="variant-index" value="8"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="9"/>
+<string key="variant" value="Variant 9"/>
+<int key="variant-index" value="9"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="10"/>
+<string key="variant" value="Variant 10"/>
+<int key="variant-index" value="10"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="11"/>
+<string key="variant" value="Variant 11"/>
+<int key="variant-index" value="11"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="12"/>
+<string key="variant" value="Variant 12"/>
+<int key="variant-index" value="12"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="13"/>
+<string key="variant" value="Variant 13"/>
+<int key="variant-index" value="13"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="14"/>
+<string key="variant" value="Variant 14"/>
+<int key="variant-index" value="14"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="15"/>
+<string key="variant" value="Variant 15"/>
+<int key="variant-index" value="15"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="16"/>
+<string key="variant" value="Variant 16"/>
+<int key="variant-index" value="16"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="17"/>
+<string key="variant" value="Variant 17"/>
+<int key="variant-index" value="17"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="18"/>
+<string key="variant" value="Variant 18"/>
+<int key="variant-index" value="18"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="19"/>
+<string key="variant" value="Variant 19"/>
+<int key="variant-index" value="19"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="20"/>
+<string key="variant" value="Variant 20"/>
+<int key="variant-index" value="20"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="21"/>
+<string key="variant" value="Variant 21"/>
+<int key="variant-index" value="21"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="22"/>
+<string key="variant" value="Variant 22"/>
+<int key="variant-index" value="22"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="23"/>
+<string key="variant" value="Variant 23"/>
+<int key="variant-index" value="23"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="24"/>
+<string key="variant" value="Variant 24"/>
+<int key="variant-index" value="24"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="25"/>
+<string key="variant" value="Variant 25"/>
+<int key="variant-index" value="25"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="26"/>
+<string key="variant" value="Variant 26"/>
+<int key="variant-index" value="26"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="27"/>
+<string key="variant" value="Variant 27"/>
+<int key="variant-index" value="27"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="28"/>
+<string key="variant" value="Variant 28"/>
+<int key="variant-index" value="28"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="29"/>
+<string key="variant" value="Variant 29"/>
+<int key="variant-index" value="29"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="30"/>
+<string key="variant" value="Variant 30"/>
+<int key="variant-index" value="30"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="31"/>
+<string key="variant" value="Variant 31"/>
+<int key="variant-index" value="31"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="32"/>
+<string key="variant" value="Variant 32"/>
+<int key="variant-index" value="32"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="33"/>
+<string key="variant" value="Variant 33"/>
+<int key="variant-index" value="33"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="34"/>
+<string key="variant" value="Variant 34"/>
+<int key="variant-index" value="34"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="35"/>
+<string key="variant" value="Variant 35"/>
+<int key="variant-index" value="35"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="36"/>
+<string key="variant" value="Variant 36"/>
+<int key="variant-index" value="36"/>
+<string key="creator" value="Process Composer"/>
+<event>
+<string key="concept:name" value="A-Request New Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:10:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:11:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:12:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:13:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:14:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:15:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="B-Receive Applications"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:16:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="C-Make Decision"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:17:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="D-Ask For Confirmation"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:18:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="G-Prepare New Hardware"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:19:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="F-Confirm Access to IT Systems"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:20:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="E-Report Employee"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:21:00.000+02:00"/>
+</event>
+<event>
+<string key="concept:name" value="*END*"/>
+<string key="lifecycle:transition" value="complete"/>
+<date key="time:timestamp" value="2017-05-29T21:22:00.000+02:00"/>
+</event>
+</trace>
+</log>
