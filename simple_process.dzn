@@ -1,0 +1,31 @@
+%SIMPLE PROCESS: EXTENSION-LOOPS
+
+input_states_names = ["A", "B", "C", "S"]; % order is significant! Indices are later used in the following arrays.
+input_tasks_names =  ["W", "X", "Y", "Z"];  % order is significant! Indices are later used in the following arrays.
+
+% For every task we specify, what it requires. The size of the list should be equal to amount of tasks x amount of states.
+input_tasks_conditions = [  
+  1, -1, -1, -1, % task W requires state A to be present (1 at the first position), other states don't matter (-1 values), 0 would indicate that tasks requires state be not present
+  1, -1, -1, -1, % task X requires state A to be present, other states don't matter
+ -1, -1, -1, -1, % task Y requires state S to be present, other states don't matter
+ -1,  1, -1, -1]; % task Z requires state B to be present, other states don't matter
+
+% For every task we specify, what is its effect. The size of the list should be equal to amount of tasks x amount of states
+input_tasks_effects = [
+   0, -1,  1, -1, % task W adds state C (1 at the third position), doesn't change any other state (-1), 0 would indicate that task removes the state
+  -1,  1, -1, -1, % task X adds state B, doesn't change any other state
+   1, -1, -1, -1, % task Y adds state A, doesn't change any other state
+  -1, -1,  1, -1 % task Z add state C, doesn't change any other state
+];
+
+% The starting state of the process.
+% A = not present, B = not present, C = present, S = not present 
+% You can't use the -1 here, state has to properly defined.
+input_initial_state = [0, 0, 0, 0];
+
+% The goal of the process.
+% A = doesn't matter, B = doesn't matter, C = has to be present, S = doesn't matter
+input_goal_state = [0, -1, -1, -1];
+
+%The maximum number of executions defined for each task (0 - unlimited).
+input_tasks_executions = [1, 1, 1, 1];
