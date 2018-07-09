@@ -8,4 +8,4 @@ This project is focused on creating a set of tools that allows create a correct 
 * BPMN models used for method evaluation
 * results of the performed comparative analysis
 
-* [See project Wiki for details](wiki/home)
+[See project Wiki for details](/wiki/)
