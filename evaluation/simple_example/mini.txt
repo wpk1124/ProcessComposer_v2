@@ -1,0 +1,10 @@
+Workflow trace:
+"A", "B", "C"
+----------
+Workflow trace:
+"B", "A", "C"
+----------
+Workflow trace:
+"B", "C", "A"
+----------
+==========
