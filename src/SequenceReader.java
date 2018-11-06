@@ -14,6 +14,8 @@ public class SequenceReader {
             Log workflowLog = new Log();
             //throw exception in case when there is an empty log
             while ((strLine = br.readLine()) != null) {
+                if(strLine.startsWith("=====UNSATISFIABLE====="))
+                    throw new UnsupportedOperationException("Error: The provided process specification is inconsistent.");
                 Trace trace = new Trace();
                 if(strLine.startsWith("\"")) {
                     for(String s : strLine.split(", ")) {
@@ -30,5 +32,9 @@ public class SequenceReader {
             System.out.println("No file.");
             return null;
         }
+        catch (UnsupportedOperationException uoe) {
+            System.out.println(uoe.getMessage());
+        }
+        return null;
     }
 }

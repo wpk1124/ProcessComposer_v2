@@ -1,6 +1,6 @@
 % STRIPs based process composer
 %%%%%%%%%%
-%VERSION 14/18 - including loops
+%VERSION 14/18
 %%%%%%%%%%
 
 include "globals.mzn";
@@ -67,7 +67,10 @@ predicate state_satisfies_requirements_set(array[state_indexes] of var 0..1: sta
 % Constraints
 %%%%%%%%%%%
 
-% count of occurences for each task should be lower or equal to max_execution_number
+% Tasks should not repeat
+%constraint alldifferent_except_0(process); - DELETET TO ENABLE LOOPS
+
+% count of occurences for each task should be lower or equal to 4
 constraint forall(i in 1..num_of_tasks)(
   if (input_tasks_executions[i] == 0 \/ input_tasks_executions[i] > max_execution_number) then
     count_geq(process, i, max_execution_number)
@@ -90,12 +93,12 @@ constraint forall(i in process_indexes)(
   else process[i] != dummy_task endif
 );
 
-% End process when the first (desired) goal is achieved
+% End process when the first (desired) goal is achieved - REVISED 2 times for short processes
 constraint forall(i in process_indexes)(
   let {
     array[state_indexes] of var 0..1: state = [process_states[i,s] | s in state_indexes]
   } in
-  state_satisfies_requirements(state, row(goal_states,1)) ->last_task_index < i+2 
+  state_satisfies_requirements(state, row(goal_states,1)) ->last_task_index < i+2 %corrected to i+2
 );
 
 % The states beggining from last_task_index + 1 shouldn't change 

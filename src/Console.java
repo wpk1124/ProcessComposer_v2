@@ -8,11 +8,14 @@ import java.util.Scanner;
 
 public class Console {
     public static void main(final String[] args) {
-        System.out.println("Insert name of the log file (without extension):");
+        //System.out.println("Insert name of the log file (without extension):");
+        System.out.println("Insert name of the MiniZinc Data file (without extension):");
         Scanner reader = new Scanner(System.in);
-        String fileName = reader.nextLine();
-        System.out.println("Reading TXT file...");
-        Log log = SequenceReader.readTxtFile(fileName+".txt");
+        String dznFileName = reader.nextLine();
+        System.out.println("Reading DZN file...");
+        String logFileName = MinizincInterface.runSearch(MinizincInterface.SearchMode.LogGeneration, dznFileName, 0, 1, true);
+        //System.out.println(logFileName);
+        Log log = SequenceReader.readTxtFile(logFileName+".txt");
         boolean looping = true;
         if(log != null)
             System.out.println("Log file loaded");
@@ -31,19 +34,19 @@ public class Console {
                 switch (selection) {
                     case 1:
                         System.out.println("Writing XES file");
-                        XESWriter.writeXESFile(log, fileName + "-log.xes", false);
-                        System.out.println("File saved as " + fileName + "-log.xes");
+                        XESWriter.writeXESFile(log, logFileName + "-log.xes", false);
+                        System.out.println("File saved as " + logFileName + "-log.xes");
                         break;
                     case 2:
                     case 3:
                         System.out.println("Composing BPMN process");
                         ProcessGraph BPgraph = ProcessComposer.ComposeBP(log);
                         if(selection == 3) {
-                            BPgraph.printGraph(fileName+"-bpgraph.png");
-                            System.out.println("Process graph saved as " + fileName + "-bpgraph.png");
+                            BPgraph.printGraph(logFileName+"-bpgraph.png");
+                            System.out.println("Process graph saved as " + logFileName + "-bpgraph.png");
                         }
-                        BPMNWriter.writeBPMNXML(BPgraph, fileName+"-model.bpmn", false);
-                        System.out.println("BPMN model saved as " + fileName + "-model.bpmn");
+                        BPMNWriter.writeBPMNXML(BPgraph, logFileName+"-model.bpmn", false);
+                        System.out.println("BPMN model saved as " + logFileName + "-model.bpmn");
                         break;
                     case 0:
                         System.out.println("See you again!");

@@ -144,7 +144,8 @@ public class ProcessComposer {
         }
         inputData.deleteCharAt(inputData.length()-1);
         inputData.append("];");
-        String result = MinizincInterface.runSearch(MinizincInterface.SearchMode.StructureIdentification, inputData.toString(), 1, 1);
+        String dataFileName = MinizincInterface.prepareDataFile(inputData.toString(), "structure_data");
+        String result = MinizincInterface.runSearch(MinizincInterface.SearchMode.StructureIdentification, dataFileName, 1, 1, false);
         String[] outputs = result.split("\\r?\\n");
         return new GatewayStructure(MinizincInterface.parseIntArray(outputs[0]), MinizincInterface.parseSquareIntArray(outputs[1]), MinizincInterface.parseIntArray(outputs[2]), Integer.parseInt(outputs[3]));
     }

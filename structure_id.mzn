@@ -170,6 +170,7 @@ output
 
 %DEBUG
 % output
+% ["Solution set:\n"| i in 1..1] ++
 % ["Edge gateways:\n" | i in 1..1] ++ [show(edge_gateways[i]) ++ ", " | i in edge_indexes ] ++ 
 % ["\nEdge paths:\n" | i in 1..1] ++ [show(row(edge_paths,i)) ++ "\n"| i in edge_indexes ] ++
 % ["\nGateway connections:\n" | i in 1..1] ++ [show(row(gateway_connections,i)) ++ "\n"| i in gateway_indexes ] ++
