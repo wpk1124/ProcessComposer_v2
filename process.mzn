@@ -1,6 +1,6 @@
 % STRIPs based process composer
 %%%%%%%%%%
-%VERSION 14/18
+%VERSION 14/18 - prepare for final test (ex loops)
 %%%%%%%%%%
 
 include "globals.mzn";
