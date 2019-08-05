@@ -18,9 +18,11 @@ public class SequenceReader {
                     throw new UnsupportedOperationException("Error: The provided process specification is inconsistent.");
                 Trace trace = new Trace();
                 if(strLine.startsWith("\"")) {
-                    for(String s : strLine.split(", ")) {
-                        if(!s.matches("\"\""))
+                    for(String s : strLine.split(",")) {
+                        if(s.matches("\".+\""))
                             trace.addEvent(s.replace("\"",""));
+                        else if(s.startsWith("FSID:"))
+                            trace.setEndEventID(s.replace("FSID:",""));
                     }
                     workflowLog.addTrace(trace);
                 }
@@ -29,7 +31,7 @@ public class SequenceReader {
             return workflowLog;
         }
         catch(IOException ioo) {
-            System.out.println("No file.");
+            System.out.println("Log file not found.");
             return null;
         }
         catch (UnsupportedOperationException uoe) {

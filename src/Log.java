@@ -6,18 +6,6 @@ import java.util.*;
 public class Log {
     private List<Trace> workflowLog;
 
-    public Log() {
-        workflowLog = new ArrayList<>();
-    }
-
-    public Log(List<Trace> existingLog) {workflowLog = new ArrayList<>(existingLog);}
-
-    public void addTrace(Trace trace) {
-        workflowLog.add(new Trace(trace));
-    }
-
-    public void removeTrace(Trace trace) {workflowLog.remove(trace);}
-
     public List<Trace> getWorkflowLog() {
         return workflowLog;
     }
@@ -25,6 +13,24 @@ public class Log {
     public void setWorkflowLog(List<Trace> workflowLog) {
         this.workflowLog = workflowLog;
     }
+
+    public Log() {
+        workflowLog = new ArrayList<>();
+    }
+
+    public Log(List<Trace> existingLog) {workflowLog = new ArrayList<>(existingLog);}
+
+    public Log(String fileName) {
+        SequenceReader.readTxtFile(fileName+".txt");
+    }
+
+    public void addTrace(Trace trace) {
+        workflowLog.add(new Trace(trace));
+    }
+
+    public void removeTrace(Trace trace) {workflowLog.remove(trace);}
+
+
 
     public int getSize() {return workflowLog.size();}
 

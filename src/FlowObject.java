@@ -58,6 +58,11 @@ public class FlowObject {
             setDimensions(25.0, 25.0);
     }
 
+    public Boolean isActivity() {
+        String objectTypeString =  this.getObjectType().toString().toLowerCase();
+        return objectTypeString.contains("task") || objectTypeString.contains("subprocess");
+    }
+
     public int getObjectID() {return objectID;}
     public String getObjectName() {return objectName;}
     public FlowObjectType getObjectType() {return objectType;}

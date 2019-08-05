@@ -1,3 +1,36 @@
+//reczne tworzenie specyfikacji 11.2018
+
+        //test spec
+
+                List<DataEntity> goal = new ArrayList<>();
+                goal.add(new DataEntity("C", DataEntity.dataType._Integer));
+                ProcessSpecification spec = new ProcessSpecification("Simple Process", new ArrayList<>(), goal,  new ArrayList<>());
+
+//        List<ActivityDescription> activities = new ArrayList<>();
+//        List<DataEntity> a_req = new ArrayList<>();
+//        List<DataEntity> a_cr = new ArrayList<>();
+////        a_req.add(new DataEntity("A", DataEntity.dataType._Integer));
+////        a_cr.add(new DataEntity("C", DataEntity.dataType._Integer));
+////        activities.add(new ActivityDescription("W",a_req, a_cr));
+//
+//        a_req = new ArrayList<>();
+//        a_cr = new ArrayList<>();
+//        a_req.add(new DataEntity("A", DataEntity.dataType._Integer));
+//        a_cr.add(new DataEntity("B", DataEntity.dataType._Integer));
+//        activities.add(new ActivityDescription("X",a_req, a_cr));
+//
+//        a_req = new ArrayList<>();
+//        a_cr = new ArrayList<>();
+//        a_cr.add(new DataEntity("A", DataEntity.dataType._Integer));
+//        activities.add(new ActivityDescription("Y",a_req, a_cr, 1));
+//
+//        a_req = new ArrayList<>();
+//        a_cr = new ArrayList<>();
+//        a_req.add(new DataEntity("B", DataEntity.dataType._Integer));
+//        a_cr.add(new DataEntity("C", DataEntity.dataType._Integer));
+//        activities.add(new ActivityDescription("Z",a_req, a_cr));
+
+
  //stary main 07.2018
 
          System.out.println("Reading TXT file");

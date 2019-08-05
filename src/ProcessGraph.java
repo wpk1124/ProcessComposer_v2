@@ -26,12 +26,25 @@ import java.util.concurrent.Flow;
 
 public class ProcessGraph extends DirectedSparseGraph<FlowObject, SequenceFlow> {
 
+    private String mainPool = "Process";
+
+    public String getMainPool() {return mainPool;}
+    public void setMainPool(String pool) {mainPool = pool;}
+
+    public ProcessGraph(boolean createStartEvent, String pool) {
+        mainPool = pool;
+        if(createStartEvent)
+            this.addVertex(new FlowObject("Start", FlowObject.FlowObjectType.StartEvent));
+    };
+
+    //deprecated
     public ProcessGraph(boolean createStartEvent) {
         if(createStartEvent)
             this.addVertex(new FlowObject("Start", FlowObject.FlowObjectType.StartEvent));
     };
 
     public ProcessGraph(ProcessGraph sourceGraph) {
+        mainPool = sourceGraph.getMainPool();
         for(FlowObject fo : sourceGraph.getVertices())
             this.addNewFlowObject(fo.getObjectName(), fo.getObjectType());
         for(SequenceFlow sf : sourceGraph.getEdges()) {
@@ -43,6 +56,14 @@ public class ProcessGraph extends DirectedSparseGraph<FlowObject, SequenceFlow> 
     public FlowObject getFlowObject(String name) {
         for(FlowObject o : this.getVertices()) {
             if(o.getObjectName().equals(name))
+                return o;
+        }
+        return null;
+    }
+
+    public FlowObject getFlowObjectByHashCode(Integer hashCode) {
+        for(FlowObject o : this.getVertices()) {
+            if(o.getObjectID() == hashCode)
                 return o;
         }
         return null;
@@ -263,6 +284,37 @@ public class ProcessGraph extends DirectedSparseGraph<FlowObject, SequenceFlow> 
         return successor;
     }
 
+    public FlowObject getDirectPredecessor(String objectName) {
+        FlowObject vertex = this.getFlowObject(objectName), predecessor = null;
+        if(vertex != null) {
+            Object[] predecessors = this.getPredecessors(vertex).toArray();
+            if(predecessors.length == 1)
+                predecessor =  (FlowObject) predecessors[0];
+        }
+        return predecessor;
+    }
+
+    public String getClosestActivityName(String objectName, Boolean forwardSearch) {
+        FlowObject currentObject = this.getFlowObject(objectName);
+        if (!currentObject.isActivity()) {
+            if (forwardSearch) {
+                while (!currentObject.isActivity()) {
+                    Collection successors = this.getSuccessors(currentObject);
+                    if(successors.size() > 0)
+                        currentObject = (FlowObject) successors.toArray()[0];
+                    else return "";
+                }
+            } else {
+                Collection predecessors = this.getPredecessors(currentObject);
+                if(predecessors.size() > 0)
+                    currentObject = (FlowObject) predecessors.toArray()[0];
+                else return "";
+            }
+        }
+        return currentObject.getObjectName();
+    }
+
+    //disused
     public String getMaxBranchingLevel() {
         int branchingLevel = 0;
         StringBuilder edgeCondition = new StringBuilder("");
@@ -276,6 +328,7 @@ public class ProcessGraph extends DirectedSparseGraph<FlowObject, SequenceFlow> 
         return edgeCondition.toString();
     }
 
+    //disused
     public int getMaxBranchingLevel(Collection<SequenceFlow> edges) {
         int branchingLevel = 0;
         for(SequenceFlow e : edges) {
@@ -285,6 +338,7 @@ public class ProcessGraph extends DirectedSparseGraph<FlowObject, SequenceFlow> 
         return branchingLevel;
     }
 
+    //disused
     public boolean branchingLevelsConsistent(Collection<SequenceFlow> edges) {
         boolean consistent = false;
         int i=0;

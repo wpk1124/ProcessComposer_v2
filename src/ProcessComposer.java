@@ -9,6 +9,115 @@ import java.util.concurrent.Flow;
 
 public class ProcessComposer {
 
+    static String mergeSpecification(String requirementsFileName, String directoryName) {
+        ProcessSpecification spec = new ProcessSpecification(requirementsFileName);
+        spec.importActivityDescriptionsFromDirectory(directoryName);
+        return spec.generateMinizincData();
+    }
+
+    static Log generateWorkflowLog(String dznFileName) {
+        String logFileName = MinizincInterface.runSearch(MinizincInterface.SearchMode.LogGeneration, dznFileName, 0, 4, true);
+        return new Log(logFileName);
+    }
+
+    //new method to include pools, lanes, message flow and partial assignment
+    public static ProcessGraph ComposeBP(Log workflowlog, ProcessSpecification processSpec) {
+        ProcessGraph componentProcess = new ProcessGraph(true, processSpec.getMainPool());
+        for(Trace t : workflowlog.getWorkflowLog()) {
+            List<String> tasks = new ArrayList<>(t.getWorkflowTrace());
+            //add first task
+            String firstTask = tasks.get(0);
+            componentProcess.addNewFlowObject(firstTask, FlowObject.FlowObjectType.Task);
+            componentProcess.addNewSequenceFlow("Start", firstTask);
+            tasks.remove(firstTask);
+            //add the other tasks
+            for (String task : tasks) {
+                componentProcess.addNewFlowObject(task, FlowObject.FlowObjectType.Task);
+                componentProcess.addNewSequenceFlow(firstTask, task);
+                firstTask = task;
+            }
+            //add end event
+            String endEventName = "End "+t.getEndEventID();
+            componentProcess.addNewFlowObject(endEventName, FlowObject.FlowObjectType.EndEvent);
+            componentProcess.addNewSequenceFlow(firstTask, endEventName);
+        }
+        componentProcess.printGraph("bpgraph-beforerefining.png");
+
+        //refine edges
+        Collection<SequenceFlow> edgesToRemove = new ArrayList<>();
+        for(SequenceFlow edge : componentProcess.getEdges()) {
+            Pair<FlowObject> endPoints;
+            endPoints = componentProcess.getEndpoints(edge);
+            String startTaskName = endPoints.getFirst().getObjectName();
+            String endTaskName = endPoints.getSecond().getObjectName();
+            SequenceFlow oppositeEdge = componentProcess.findEdge(endPoints.getSecond(), endPoints.getFirst());
+            boolean doubledEdges = (oppositeEdge != null);
+            boolean parallelExecution = workflowlog.parallelExecution(startTaskName, endTaskName);
+            if(doubledEdges && parallelExecution) {
+                edgesToRemove.add(edge);
+                edgesToRemove.add(oppositeEdge);
+            }
+        }
+
+        for(SequenceFlow e : edgesToRemove)
+            componentProcess.removeEdge(e);
+
+        //DEBUG - print intermediate model
+        ProcessGraph toPrint = new ProcessGraph(componentProcess);
+        toPrint.printGraph("bpgraph-nogateways.png");
+
+        ProcessGraph BPGraph = new ProcessGraph(componentProcess);
+        //add split gateways (out edges)
+        for(FlowObject originalVertex : componentProcess.getVertices()) {
+            Collection<FlowObject> successors = componentProcess.getSuccessors(originalVertex);
+            List<SequenceFlow> outEdges = new ArrayList<>(componentProcess.getOutEdges(originalVertex));
+            int outEdgesCount = outEdges.size();
+            if(outEdgesCount == 2 && FlowObject.tasksAndEvents.contains(originalVertex.getObjectType())) {
+                if(componentProcess.parallelExecution(outEdges.get(0), outEdges.get(1), workflowlog))
+                    BPGraph.insertGateway(originalVertex, successors, FlowObject.FlowObjectType.ANDsplit);
+                else
+                    BPGraph.insertGateway(originalVertex, successors, FlowObject.FlowObjectType.XORsplit);
+            }
+            else if(outEdgesCount > 2 && FlowObject.tasksAndEvents.contains(originalVertex.getObjectType())) {
+                //save edges as pairs of their endpoints
+                List<Pair<String>> outEdgeEndpoints = new ArrayList<>();
+                for(int i = 0; i < outEdgesCount; i++)
+                    outEdgeEndpoints.add(new Pair<>(componentProcess.getSource(outEdges.get(i)).getObjectName(), componentProcess.getDest(outEdges.get(i)).getObjectName()));
+
+                BPGraph.insertSplitGatewayStructure(identifyGateways(outEdges, componentProcess.getEdgeRelations(outEdges, workflowlog)), outEdgeEndpoints, originalVertex);
+            }
+        }
+
+        ProcessGraph intermediateGraph = new ProcessGraph(BPGraph);
+        intermediateGraph.printGraph("bpgraph-splitonly.png");
+
+        //add merge gateways (in edges)
+        for(FlowObject originalVertex : componentProcess.getVertices()) {
+            //intermediateGraph - merged graph with split gateways
+            FlowObject intermediateVertex = intermediateGraph.getFlowObject(originalVertex.getObjectName());
+            Collection<FlowObject> predecessors = intermediateGraph.getPredecessors(intermediateVertex);
+            List<SequenceFlow> inEdges = new ArrayList<>(componentProcess.getInEdges(originalVertex));
+            int inEdgesCount = inEdges.size();
+
+            if(inEdgesCount == 2 && FlowObject.tasksAndEvents.contains(originalVertex.getObjectType())) {
+                if(componentProcess.parallelExecution(inEdges.get(0), inEdges.get(1), workflowlog))
+                    BPGraph.insertGateway(predecessors, originalVertex, FlowObject.FlowObjectType.ANDjoin);
+                else
+                    BPGraph.insertGateway(predecessors, originalVertex, FlowObject.FlowObjectType.XORjoin);
+            }
+            else if(inEdgesCount > 2 && FlowObject.tasksAndEvents.contains(originalVertex.getObjectType())) {
+                //save edges as pairs of their endpoints
+                List<Pair<String>> inEdgeEndpoints = new ArrayList<>();
+                for(int i = 0; i < inEdgesCount; i++)
+                    inEdgeEndpoints.add(new Pair<>(componentProcess.getSource(inEdges.get(i)).getObjectName(), componentProcess.getDest(inEdges.get(i)).getObjectName()));
+                BPGraph.insertMergeGatewayStructure(identifyGateways(inEdges, componentProcess.getEdgeRelations(inEdges, workflowlog)), inEdgeEndpoints, originalVertex);
+            }
+        }
+
+        return BPGraph;
+    }
+
+    //old
     public static ProcessGraph ComposeBP(Log workflowlog) {
         ProcessGraph componentProcess = new ProcessGraph(true);
         for(Trace t : workflowlog.getWorkflowLog()) {
@@ -28,10 +137,11 @@ public class ProcessComposer {
             componentProcess.addNewFlowObject("End", FlowObject.FlowObjectType.EndEvent);
             componentProcess.addNewSequenceFlow(firstTask, "End");
         }
+        componentProcess.printGraph("bpgraph-beforerefining.png");
 
         //refine edges
         Collection<SequenceFlow> edgesToRemove = new ArrayList<>();
-        /*for(SequenceFlow edge : componentProcess.getEdges()) {
+        for(SequenceFlow edge : componentProcess.getEdges()) {
             Pair<FlowObject> endPoints;
             endPoints = componentProcess.getEndpoints(edge);
             String startTaskName = endPoints.getFirst().getObjectName();
@@ -43,8 +153,9 @@ public class ProcessComposer {
                 edgesToRemove.add(edge);
                 edgesToRemove.add(oppositeEdge);
             }
-        } */
+        }
 
+        /* commented to test the above method
         for(SequenceFlow edge : componentProcess.getEdges()) {
             Pair<FlowObject> endPoints;
             boolean doubledEdges = false, executedEquinumerously  = false, parallelExecution = false;
@@ -70,13 +181,13 @@ public class ProcessComposer {
                 edgesToRemove.add(oppositeEdge);
             }
         }
-
+*/
         for(SequenceFlow e : edgesToRemove)
             componentProcess.removeEdge(e);
 
         //DEBUG - print intermediate model
-        //ProcessGraph toPrint = new ProcessGraph(componentProcess);
-        //toPrint.printGraph("bpgraph-nogateways.png");
+        ProcessGraph toPrint = new ProcessGraph(componentProcess);
+        toPrint.printGraph("bpgraph-nogateways.png");
 
         ProcessGraph BPGraph = new ProcessGraph(componentProcess);
         //add split gateways (out edges)

@@ -1,6 +1,6 @@
 % STRIPs based process composer
 %%%%%%%%%%
-%VERSION 14/18 - prepare for final test (ex loops)
+%VERSION 23/19 - add multiple end events
 %%%%%%%%%%
 
 include "globals.mzn";
@@ -54,6 +54,7 @@ set of int: process_indexes = first_process_index..last_process_index;
 var real_tasks_indexes: last_task_index;
 array[process_indexes] of var tasks_indexes: process;
 array[process_indexes, state_indexes] of var 0..1: process_states; 
+var goal_state_indexes: goal_state_id;                    %new decision variable to identify the final state
 
 % Helpful Predicates
 %%%%%%%%%%%
@@ -98,7 +99,7 @@ constraint forall(i in process_indexes)(
   let {
     array[state_indexes] of var 0..1: state = [process_states[i,s] | s in state_indexes]
   } in
-  state_satisfies_requirements(state, row(goal_states,1)) ->last_task_index < i+2 %corrected to i+2
+  state_satisfies_requirements(state, row(goal_states,1)) ->last_task_index < i %corrected to i+2 which was wrong, going back to i
 );
 
 % The states beggining from last_task_index + 1 shouldn't change 
@@ -138,6 +139,12 @@ constraint forall(i in real_tasks_indexes)(
   )
 );
 
+% Goal state ID is the row number of matrix M_SF that is satisfied by the final state
+constraint forall(i in goal_state_indexes)(
+   if state_satisfies_requirements(last_state, row(goal_states,i)) then goal_state_id = i
+   else 1=1 endif
+);
+
 % Goal
 %%%%%%%%%
 solve satisfy;
@@ -146,7 +153,7 @@ solve satisfy;
 %%%%%%%%%
 
 output
-["Workflow trace:\n" | i in 1..1] ++ [show(tasks_names[process[i]]) ++ ", " | i in process_indexes  ]
+["Workflow trace:\n" | i in 1..1] ++ [show(tasks_names[process[i]]) ++ "," | i in process_indexes  ] ++ ["FSID:" ++ show(goal_state_id) | i in 1..1]
 
 %DEBUG
 % ["Workflow trace: " | i in 1..1] ++ [show(tasks_names[process[i]]) ++ ", " | i in process_indexes  ] ++ ["\nLast task index: " ++show(last_task_index) ++ " Last process index: " ++ show(last_process_index) ++ " First process index: " ++ show(first_process_index) ++ " First process index: " ++ show(first_process_index) ++ " " | i in 1..1]  ++ [show(last_state) ++ "<- it was last state, " | i in 1..1] 
